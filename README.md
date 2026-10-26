@@ -231,8 +231,8 @@ Los principales aprendizajes fueron:
 
 Informe elaborado como parte de una actividad práctica de ciberseguridad ofensiva, laboratorio "RootMe" de TryHackMe.
 
-## Evidencia de finalizacion de maquina ROOTME
+## Evidencia de finalización de máquina ROOTME
 
-[Evidencia de máquina finalizada 1](./evidencias/evidenciaMaquinaFinalizada1.png)
+![Evidencia de máquina finalizada 1](./evidencias/evidenciaMaquinaFinalizada1.png)
 
-[Evidencia de máquina finalizada](./evidencias/evidenciaMaquinaFinalizada.png)
+![Evidencia de máquina finalizada](./evidencias/evidenciaMaquinaFinalizada.png)
